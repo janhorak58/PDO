@@ -1,5 +1,5 @@
 
-### Nahrání videa
+# Nahrání videa
 Připravte si video ve formátu MP4, AVI, MOV, MKV nebo MPEG4, které je menší než 20 GB.
 
 V sekci pro výběr videa klikněte na tlačítko pro nahrání videa. Vyberte soubor s videem, které chcete zpracovat, a potvrďte nahrání. Po úspěšném nahrání by se video mělo objevit v nabídce pro výběr videa.

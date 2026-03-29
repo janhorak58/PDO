@@ -3,10 +3,10 @@
 Tento návod popisuje nejjednodušší způsob práce se systémem přes webové rozhraní. Postup je vhodný hlavně pro uživatele, kteří chtějí rychle vybrat video, nastavit čáru a zkontrolovat výsledky bez detailní práce s příkazovou řádkou.
 
 ## Předpoklady
-Nejprve si připravte prostředí projektu. Ujistěte se, že máte nainstalované závislosti, že ve složce s videi existuje vstupní záznam a že soubor `configs/models.yaml` obsahuje modely, které chcete v rozhraní vybírat.
-
-## Spuštění aplikace
-Nainstalujte závislosti projektu:
+Nejprve si připravte prostředí projektu. 
+- Nainstalujte Python 3.10+ a Git.
+- Nainstalujte správce prostředí `uv` podle instrukcí v [Rychlém startu](../../README.md).
+- Naklonujte repozitář a synchronizujte prostředí pomocí příkazu:
 
 ```bash
 uv sync

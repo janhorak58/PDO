@@ -2,13 +2,6 @@
 
 
 
-### Nahrání modelu
-    ALERT: V aplikaci jsou již k dispozici předtrénované modely. Tato sekce slouží primárně k tomu, aby uživatel mohl nahrát vlastní (natrénovaný) model. Pokud chcete použít některý z předtrénovaných modelů, není potřeba nahrávat vlastní model a můžete rovnou přejít k výběru modelu a videa [zde.
-
-Pokud chcete použít vlastní model, připravte si model ve formátu PT, nebo PTH. Model musí být kompatibilní s architekturou, kterou systém podporuje. V současnosti je to Ultralytics YOLO a Roboflow RF-DETR.
-
-Podobně jako u videa rozklikněte rozbalovací menu "Nahrát vlastní váhy modelu". 
-
 
 ## Pred
 Vyberte v rozhraní model z nabídky a potom zvolte video, které chcete zpracovat. Zkontrolujte, že odpovídá správná vstupní cesta a že jste vybrali vhodný model pro daný typ dat.
