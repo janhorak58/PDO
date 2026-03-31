@@ -1,33 +1,44 @@
-# Vybraný produkt
-Bakalářská práce „Obrazová detekce návštěvníků na Jizerské magistrále“
+# Semestrální práce
 
-Jde o software pro automatické vyhodnocení návštěvnosti z videa. Systém detekuje návštěvníky na záznamu a umožňuje získat přehled o počtu průchodů. Výstupem je funkční aplikace jako praktická část bakalářské práce.
+V rámci semestrální práce z předmětu Psaní dokumentace byl vytvořen koncept a dva návody pro software spojený s bakalářskou prací „Obrazová detekce návštěvníků na Jizerské magistrále".
 
-# Cílová skupina
+Tato složka rozděluje práci do menších částí tak, aby se v ní dalo snadno orientovat. Nejprve vymezuje cílové skupiny a základní koncept řešení, potom nabízí dva praktické návody a nakonec uzavírá dokument shrnutím.
 
-## Správci Jizerské magistrály
-Potřebují znát návštěvnost trasy a mít jednodušší přehled o počtu lidí. Už podobný software používají, takže hlavní důraz je na praktické a srozumitelné použití.
+## Rychlý start
 
-## Oponent
-Potřebuje si řešení snadno spustit, ověřit a pochopit princip fungování i evaluace.
+### Požadavky
 
-# Forma
-Produkt bude dostupný jako webové UI a zároveň dockerizovaně v GitHub repozitáři, aby šel snadno spustit a otestovat.
+- [Python 3.10+](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads)
+- [uv](https://github.com/astral-sh/uv) — správce prostředí pro Python
 
-- ukázky snímků obrazovky UI s popisem.
-- Github readme
+### Instalace `uv`
+#### macOS / Linux
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+#### Windows (PowerShell)
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+#### Spuštění uživatelského rozhraní
+```bash
+git clone git@github.com:janhorak58/counter.git
+cd counter
+uv sync
+uv run counter-ui
+```
 
-# Typ dokumentace
-- Jak spustit vyhodnocení predikce na videu
-    - Popis práce se systémem od vstupního videa po výsledný výstup.
+### Video návod
+Podívejte se na krátký video návod od spuštění rozhraní po kontrolu výsledků.
 
-- Jak evaluovat výsledky proti předpočítanému Ground Truth
-    - Popis porovnání predikcí s referenčními daty a vyhodnocení přesnosti.
+[![Video návod: Jak spustit webové rozhraní pro provedení predikce na videu](./assets/thumbnail.png)](./assets/navod.mov)
 
+Podrobný postup je popsán v [návodu k webovému rozhraní](./03_navody/webove_rozhrani/index.md).
 
-# 1 koncept + 2 návody
-
-# Připravený repozitář
-https://github.com/janhorak58/PDO
-
-
+## Obsah
+- [Úvod a cílové skupiny](./01_uvod/01_cilove_skupiny.md)
+- [Koncept](./02_koncept/01_cil_reseni.md)
+- [Návod: webové rozhraní pro predikci](./03_navody/webove_rozhrani/index.md)
+- [Návod: evaluace výsledků](./03_navody/02_evaluace.md)
+- [Shrnutí](./04_zaver/01_shrnuti.md)
