@@ -30,7 +30,7 @@ uv run counter-ui
 ### Video návod
 Podívejte se na krátký video návod od spuštění rozhraní po kontrolu výsledků.
 
-[![Video návod: Jak spustit webové rozhraní pro provedení predikce na videu](./assets/thumbnail.png)](./assets/navod.mov)
+[![Video návod: Jak spustit webové rozhraní pro provedení predikce na videu](./assets/thumbnail.png)](https://youtu.be/64PHaxcjUcU)
 
 Podrobný postup je popsán v [návodu k webovému rozhraní](./03_navody/webove_rozhrani/index.md).
 

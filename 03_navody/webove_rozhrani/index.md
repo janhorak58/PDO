@@ -43,4 +43,4 @@ Po nahrání videa a modelu přejděte k nastavení čáry a spuštění predikc
 # Video návod
 Podívejte se na krátký video návod od spuštění rozhraní po kontrolu výsledků.
 
-[![Video návod: Jak spustit webové rozhraní pro provedení predikce na videu](../../assets/thumbnail.png)](../../assets/navod.mov)
+[![Video návod: Jak spustit webové rozhraní pro provedení predikce na videu](../../assets/thumbnail.png)](https://youtu.be/64PHaxcjUcU)
