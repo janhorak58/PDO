@@ -1,8 +1,6 @@
-# Semestrální práce
+# Bakalářská práce: Obrazová detekce návštěvníků na Jizerské magistrále
 
-V rámci semestrální práce z předmětu Psaní dokumentace byl vytvořen koncept a dva návody pro software spojený s bakalářskou prací „Obrazová detekce návštěvníků na Jizerské magistrále".
-
-Tato složka rozděluje práci do menších částí tak, aby se v ní dalo snadno orientovat. Nejprve vymezuje cílové skupiny a základní koncept řešení, potom nabízí dva praktické návody a nakonec uzavírá dokument shrnutím.
+V rámci bakalářské práce obrazová detekce návštěvníků na Jizerské magistrále byl vytvořen systém pro detekci a počítání návštěvníků na základě videí z Jizerské magistrály.
 
 ## Rychlý start
 
@@ -41,4 +39,4 @@ Podrobný postup je popsán v [návodu k webovému rozhraní](./03_navody/webove
 - [Koncept](./02_koncept/01_cil_reseni.md)
 - [Návod: webové rozhraní pro predikci](./03_navody/webove_rozhrani/index.md)
 - [Návod: evaluace výsledků](./03_navody/02_evaluace.md)
-- [Shrnutí](./04_zaver/01_shrnuti.md)
+

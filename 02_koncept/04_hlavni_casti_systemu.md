@@ -2,6 +2,10 @@
 
 Systém lze rozdělit do tří hlavních částí. Každá z nich řeší jinou fázi práce s daty, ale společně tvoří jeden navazující celek od zpracování videa až po interpretaci výsledků.
 
+
+![Schéma projektu](../assets/concept/big_picture.png)
+
+
 ## Predikční pipeline
 - Zpracování videa modelem.
 - Tracking objektů.
