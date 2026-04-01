@@ -10,6 +10,8 @@ Připravte prostředí projektu:
 3. Naklonujte repozitář a synchronizujte prostředí:
 
 ```bash
+git clone https://github.com/janhorak58/counter.git
+cd counter
 uv sync
 ```
 

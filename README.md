@@ -19,9 +19,12 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
+
+Po instalaci `uv` zavřete a znovu otevřete terminál.
+
 #### Spuštění uživatelského rozhraní
 ```bash
-git clone git@github.com:janhorak58/counter.git
+git clone https://github.com/janhorak58/counter.git
 cd counter
 uv sync
 uv run counter-ui
