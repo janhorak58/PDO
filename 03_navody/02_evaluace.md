@@ -129,6 +129,3 @@ Klíčovou metrikou je **WAPE** (Weighted Absolute Percentage Error) — vážen
 4. Otevřete `per_class_metrics.csv` a ověřte, zda model neselhává jen na konkrétní třídě objektů.
 
 Porovnejte hodnoty s referenčním ground truth a vyhodnoťte, zda je chyba přijatelná pro zamýšlené použití.
-
-## Návaznost
-- Další část: [Shrnutí](../04_zaver/01_shrnuti.md)
