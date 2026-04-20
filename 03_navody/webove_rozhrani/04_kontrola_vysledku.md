@@ -21,4 +21,5 @@ Přejděte na stránce dolů do sekce "Historie běhů", kde jsou zobrazeny vše
 V políčku "Prohlédnout výsledek z historie" vyberte video. Otevře se stejné zobrazení jako u posledního výsledku, ale s daty zvoleného běhu z historie.
 
 - [Předchozí část: Spuštění predikce](./03_predikce.md)
-- [Zpět na přehled návodu](../index.md)
+- [Zpět na přehled návodu](./index.md)
+- [Zpět na obsah](../../README.md)
